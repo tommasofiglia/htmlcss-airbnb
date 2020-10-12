@@ -20,6 +20,7 @@ body{
   height: 32vh;
   background-size: cover;
   position: relative;
+  font-family: sans-serif;
   text-shadow: 3px 3px black;
   box-shadow: 2px 2px;
 }
