@@ -1,0 +1,34 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body{
+    background-color: #1e2d3c;
+}
+.city{
+  margin:auto;
+  width: 31vw;
+  height: 29vh;
+  background-image: url('../img/roma.jpg');
+  background-size: cover;
+  position: relative;
+  border: 3px solid white;
+}
+
+.overlay{
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5);
+}
+
+.city_name{
+  display: inline-block;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+  color: white;
+  font-size: 30px;
+}
