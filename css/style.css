@@ -43,6 +43,7 @@ body{
   width: 100%;
   height: 100%;
   background-color: rgba(20, 0, 30, 0.6);
+  cursor: pointer;
 }
 
 .city_name{
@@ -54,4 +55,8 @@ body{
   text-transform: uppercase;
   color: white;
   font-size: 30px;
+}
+
+.city:hover .overlay{
+  background-color: rgba(0, 0, 0, 0);
 }
